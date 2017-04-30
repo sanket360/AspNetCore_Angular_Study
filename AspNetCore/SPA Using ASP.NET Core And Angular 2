@@ -1,0 +1,20 @@
+SPA Using ASP.NET Core And Angular 2
+
+Prerequisites
+
+The following software needs to be installed in our system before starting the work.
+
+    .NET Core 1.1.
+    TypeScript 2.0.
+    Node JS version 6 or later.
+    Editor such as VS 2017 or VS Code.
+    
+To install SPA template, we need to run the command given below from the command prompt.
+
+    dotnet new --install Microsoft.AspNetCore.SpaTemplates::*  
+    
+Here, I want to create SPA, using MVC ASP.NET Core with Angular, so we need to execute the command given below, using the command prompt at the place, where you want to create an Application.
+
+    dotnet new angular  
+
+After successful creation of an Application, we need to download dependencies of an Angular (npm install) as well as an ASP.NET Core (dotnet restore).
