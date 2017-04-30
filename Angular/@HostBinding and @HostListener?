@@ -1,0 +1,48 @@
+Difference between @HostBinding and @HostListener?
+
+HostListener - Declares a host listener.Angular will invoke the decorated method when the host element emits the specified event.
+# HostListener - will listen to the event emitted by host element, declared with @HostListener.
+
+HostBinding -Declares a host property binding.Angular automatically checks host property bindings during change detection. If a binding changes, it will update the host element of the directive.
+# HostBinding - will bind property to host element, If a binding changes, HostBinding will update the host element. 
+
+
+Component's template property:
+
+Template
+
+<!-- attention, we have the c_highlight class -->
+<!-- c_highlight is the selector property value of the directive -->
+
+<p class="c_highlight">
+    Some text.
+</p>
+
+And our directive
+
+import {Component,HostListener,Directive,HostBinding} from '@angular/core';
+
+@Directive({
+    // this directive will work only if the DOM el has the c_highlight class
+    selector: '.c_highlight'
+ })
+export class HostDirective {
+
+  // we could pass lots of thing to the HostBinding function. 
+  // like class.valid or attr.required etc.
+
+  @HostBinding('style.backgroundColor') c_colorrr = "red"; 
+
+  @HostListener('mouseenter') c_onEnterrr() {
+   this.c_colorrr= "blue" ;
+  }
+
+  @HostListener('mouseleave') c_onLeaveee() {
+   this.c_colorrr = "yellow" ;
+  } 
+}
+
+
+References:
+http://stackoverflow.com/questions/37965647/hostbinding-and-hostlistener-what-do-they-do-and-what-are-they-for
+https://plnkr.co/edit/mgiqrDsdAO1nZz7nwo4X?p=info
