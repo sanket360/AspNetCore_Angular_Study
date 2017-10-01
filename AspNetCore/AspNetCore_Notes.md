@@ -13,5 +13,8 @@ https://github.com/DamianEdwards/TagHelperPack/tree/master/src/TagHelperPack
 Google Analytics TagHelper
 https://codingblast.com/tag-helper-component-google-analytics/
 
+ASP.NET Core 1.1 + PWA
+https://www.danylkoweb.com/Blog/building-progressive-web-applications-pwa-with-visual-studio-IR
+
 ASP.NET Core 2.0 in Docker by Mark Rendle
 https://vimeo.com/233915427
