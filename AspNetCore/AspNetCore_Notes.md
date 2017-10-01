@@ -10,5 +10,8 @@ https://www.youtube.com/watch?v=R3UJjSAH6bM&feature=youtu.be
 TagHelperPack by Damian Edwards
 https://github.com/DamianEdwards/TagHelperPack/tree/master/src/TagHelperPack
 
+Google Analytics TagHelper
+https://codingblast.com/tag-helper-component-google-analytics/
+
 ASP.NET Core 2.0 in Docker by Mark Rendle
 https://vimeo.com/233915427
