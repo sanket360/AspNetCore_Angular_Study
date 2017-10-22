@@ -27,3 +27,6 @@ https://www.youtube.com/watch?v=yyBijyCI5Sk
 
 ASP.NET Core 2.0 - Repository Overview: Action Results
 http://jackhiston.com/2017/10/8/aspnet-core-20-repository-overview-action-results/
+
+Building a scheduled task in ASP.NET Core/Standard 2.0
+https://blog.maartenballiauw.be/post/2017/08/01/building-a-scheduled-cache-updater-in-aspnet-core-2.html
