@@ -30,3 +30,6 @@ http://jackhiston.com/2017/10/8/aspnet-core-20-repository-overview-action-result
 
 Building a scheduled task in ASP.NET Core/Standard 2.0
 https://blog.maartenballiauw.be/post/2017/08/01/building-a-scheduled-cache-updater-in-aspnet-core-2.html
+
+ASP.NET Core 2.0 Security by Barry Dorrans at .NET Conf 2017
+https://channel9.msdn.com/Events/dotnetConf/2017/T324
