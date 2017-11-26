@@ -1,0 +1,2 @@
+firebase project
+https://console.firebase.google.com/project/aspnetcore-angular-study/overview?pli=1
