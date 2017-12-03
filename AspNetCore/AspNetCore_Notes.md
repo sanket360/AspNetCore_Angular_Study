@@ -16,12 +16,6 @@ https://codingblast.com/tag-helper-component-google-analytics/
 ASP.NET Core 1.1 + PWA
 https://www.danylkoweb.com/Blog/building-progressive-web-applications-pwa-with-visual-studio-IR
 
-ASP.NET Core 2.0 in Docker by Mark Rendle
-https://vimeo.com/233915427
-
-ASP.NET Core 2.0 in Docker by Maher Jendoubi
-https://www.maherjendoubi.io/asp-net-core-2-0-in-docker/
-
 Introduction to ASP.NET Core Razor Pages - Damian Edwards
 https://www.youtube.com/watch?v=yyBijyCI5Sk
 
